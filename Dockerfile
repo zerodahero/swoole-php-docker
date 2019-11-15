@@ -1,4 +1,5 @@
 FROM php:7-alpine
+LABEL maintainer="Zack Teska <zerodahero@gmail.com>"
 
 # Alpine SDK tools
 RUN apk add --update --virtual .build-deps \
